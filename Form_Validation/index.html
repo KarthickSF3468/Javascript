@@ -1,0 +1,97 @@
+<html>
+    <head>
+       <script src="script/script.javaScript.js"></script>
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+    <header>
+        <h3>Personal Information</h3>
+        
+    </header>
+    <body> 
+        <form class="info" >
+            <div id="last">
+                
+                <label>Name as per the Id proof<span>*</span>; </label><br>
+                <input type="text" id="firstName"><br>
+                <label id="lname">Invalid Name</label>
+                
+              
+                <label>Email<span>*</span></label><br>
+                <input type="email" id="mail" ><br>
+                <label id="lemail">Invalid Name</label>
+             
+                <label>Current Address<span>*</span></label><br>
+                <input type="text" class="addrs"><br>
+                <label id="laddress">Invalid Name</label>
+    
+                <select class="place">
+                    <option value="TIndivanam">TIndivanam</option><br>
+                    <option value="Chennai">Chennai</option><br>
+                    <option value="Villupuram">Villupuram</option><br>
+                    <option value="Madurai">Madurai</option><br>
+                    <br>
+                </select>
+                
+                
+                <select class="state">
+                    <option value="TamilNadu">TamilNadu</option><br>
+                    <option value="Kerela">Kerela</option><br>
+                    <option value="Andhara">Andhara</option><br>
+                    <option value="Andhar">Andhar</option><br>
+                   
+                </select>
+                <br>
+                <label>Permenant Address* </label>
+                <input type="radio" name="Address" value="Same as the current address" placeholder="Same as the current address">  <br>
+                <input class="text" class="one" placeholder="Address 1"><br>
+                <select id="place">
+                    <option value="TIndivanam">TIndivanam</option><br>
+                    <option value="Chennai">Chennai</option><br>
+                    <option value="Villupuram">Villupuram</option><br>
+                    <option value="Madurai">Madurai</option><br>
+                    <br>
+                </select>
+                
+                
+                <select class="state">
+                    <option value="TamilNadu">TamilNadu</option><br>
+                    <option value="Kerela">Kerela</option><br>
+                    <option value="Andhara">Andhara</option><br>
+                    <option value="Andhar">Andhar</option><br>
+                    <br>
+                </select>    
+               
+                <div id="second">
+                    <label>Father's Name</label><br>
+                    <input type="text" class="one"><br>
+                    <label>Date of birth</label>
+                    <label>Mobile Number</label><br>
+                    <input type="text" class="phone">
+                    <label class="valid2" style="color:red ; visibility: hidden;">Invalid</label><br>
+                    <input type="text" class="one"><br>
+                    <input class="text" class="one" placeholder="Address 1"><br>
+                    <input class="text" class="one" placeholder="Pincode"><br>
+                    <input class="text" class="one" placeholder="Address 1"><br>
+                    <input class="text" class="one" placeholder="Pincode"><br>
+                    <footer>
+                        <p>Upload Profile Photo *(jpeg /png Format Only)</p>
+        
+                        <p>Please upload a Photo of yourself.Your face should be clearly visible Make sure the image should not exceed 500Kb.</p>
+                        <input type="file" value="Upload">
+                    </footer>
+                    
+    
+    
+                </div>
+               
+    
+            </div>
+            <button type="button" onclick="validation()" value="sumbit">sumbit</button>
+            
+
+        </form>
+        
+
+        </div>
+    </body>
+</html>

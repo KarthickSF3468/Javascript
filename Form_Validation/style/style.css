@@ -1,0 +1,38 @@
+body
+{
+    background-color:aqua;
+    width: 960px;
+    padding-left: 20%;
+    position: relative;
+
+}
+#last
+{
+    width: 35%;
+}
+#second
+{
+    position: relative;
+    float: right;
+}
+
+span
+{
+    color: red;
+    visibility: hidden;
+}
+#lname
+{
+    visibility:hidden;
+    color:red;
+}
+#lemail
+{
+    visibility:hidden;
+    color:red;
+}
+#laddress
+{
+    visibility:hidden;
+    color:red;
+}
